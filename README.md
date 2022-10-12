@@ -13,5 +13,5 @@ go run main.go htmlPage.txt failForHtml.txt
 Running in Docker:
 
 ```bash
-
+docker run --rm -v $(pwd):/delta golang:latest go run /delta/main.go /delta/htmlPage.txt /delta/failForHtml.txt
 ```
